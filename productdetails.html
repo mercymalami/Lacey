@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lacey</title>
+<link rel="stylesheet" href="products.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<h1>Lacey<h1>
+<header>
+<div class="container">
+		<nav>
+					<ul>
+						<li><a href="home.html">home</a></li>
+						<li><a href="about.html">about us</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="simu.html">contact us</a></li>
+						<li><a href="account.html">Account</a></li>
+					</ul>
+				</nav>
+				<img src="cart.jpg" class="too" width="30px" height="30px">
+		<img src="menui.jfif" class="menu-icon" width="30px" height="30px"
+		onclick="menutoggle()">
+		</div>
+		</header>
+		<div class="small-container single-product"> 
+		<div class="row">
+		<div class="col-2">
+		<img src="800.jpg" width="300" height="300" id="productImg">
+
+		<div class="small-img-row">
+			<div class="small-img-col">
+		<img src="800.jpg" width="100" height="100" class="small-img">
+		</div>
+		<div class="small-img-col">
+		<img src="801.jpg" width="100" height="100" class="small-img">
+		</div>
+		<div class="small-img-col">
+		<img src="802.jpg" width="100" height="100" class="small-img">
+		</div>
+		<div class="small-img-col">
+		<img src="803.jpg" width="100" height="100" class="small-img">
+		</div>
+		</div>
+		</div>
+		<div class="col-2">
+		<p>Home/Coat</p>
+		<h1>Black leather jacket</h1>
+		<h4>KSH 1500</h4>
+		<select>
+		<option>Select Size</option>
+		<option>XXL</option>
+		<option>XL</option>
+		<option>Large</option>
+		<option>Medium</option>
+		<option>Small</option>
+		</select>
+		<input type="number" value="1">
+		<a href="" class="btn">Add to Cart</a>
+		
+		<h3>Product Details <i class="fa fa-indent"></i><h3>
+		<br>
+		<p>Give your office wardrobe a style upgrade with this women's coat.
+		Team it with a pair of skirts or trousers for that official look in the office</p>
+		</div>
+		</div>
+		</div>
+		<div class="small-container">
+		<div class="row row-2">
+		<h2>Related Products</h2>
+		<p>View more</p>
+		</div>
+		<div>
+		
+		<div class="small-container"> 
+	<div class="row">
+		<div class="col-4">
+		<img src="dress3.jfif" height="200" width="200"/>
+		<h4>Red Cami dress</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-0"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>KSH 500.00</p>
+		</div>
+		
+		<div class="col-4">
+		<img src="dress6.webp" height="200" width="200"/>
+		<h4>Velvet Mini dress</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-0"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>KSH 500.00</p>
+		</div>
+		<div class="col-4">
+		<img src="dress5.webp" height="200" width="200"/>
+		<h4>Velvet dress</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-0"></i>
+			<i class="fa fa-star"> </i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>KSH 500.00</p>
+		</div>
+		<div class="col-4">
+		<img src="dress2.jfif" height="200" width="200"/>
+		<h4>Floral dress</h4>
+		<div class="rating">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half-0"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-o"></i>
+		</div>
+		<p>KSH 500.00</p>
+			</div>
+	</div>
+	</div>
+	<footer>
+		<div class= "footer col-1">
+			<h3> Download Our App</h3>
+			<p> Download App for Android and ios mobile phone.</p>
+		</div>
+		<div class="footer col-2">
+		<p> Our purpose is to Sustainably Make the Pleasure and Benefits of Style Accessible to Many.</p>
+		</div>
+		<div class= "footer col-3">
+		<h3>Useful links</h3>
+		<ul>
+			<li>Coupons</li>
+			<li>Blog Post</li>
+			<li>Return Policy</li>
+			<li>Join Affiliate</li>
+		</ul>
+		</div>
+		<div class= "footer col-4">
+		<h3>Follow us</h3>
+		<ul>
+			<li>Instagram</li>
+			<li>Twitter</li>
+			<li>Youtube</li>
+			<li>Facebook</li>
+		</ul>
+		</div>
+		<p>Lacey Shop, Copyright &copy; 2021</p>
+	</footer>
+	
+	<!-------js for product gallery-------->
+	<script>
+var ProductImg =document.getElementById("productImg");
+var SmallImg=document.getElementByClassName("small-img");
+
+SmallImg[0].onclick=function()
+{
+ProductImg.src=SmallImg[0].src;
+}
+SmallImg[1].onclick=function()
+{
+ProductImg.src=SmallImg[1].src;
+}
+SmallImg[2].onclick=function()
+{
+ProductImg.src=SmallImg[2].src;
+}
+SmallImg[3].onclick=function()
+{
+ProductImg.src=SmallImg[3].src;
+}
+	</script>
+		</body>
+		</html>
+		
+		
+		
+		
+		
+		
+		
+		
+	
